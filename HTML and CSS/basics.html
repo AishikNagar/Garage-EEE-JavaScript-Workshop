@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <!-- Use shift+tab to get the boilerplate -->
+    <!-- Use ctrl+/ to comment out a line -->
+
+    <meta charset="utf-8">
+    <title>Title!!</title>
+    <link rel="stylesheet" href="css_basics.css">
+  </head>
+  <body>
+    <!-- The body contains the actual content -->
+
+    <!-- Refer to the following link for details on the html elements: -->
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element -->
+
+    <h1>I am Heading 1</h1>
+    <h2>Headings can be different sizes</h2>
+
+    <p>This is a paragraph.</p>
+
+    <!-- LISTS -->
+
+    <h3>LISTS!</h3>
+
+    <h4>Ordered lists</h4>
+
+    <ol>
+      <li>This is a list Item</li>
+      <li>This list is an ordered list</li>
+      <li>Third item</li>
+    </ol>
+
+    <h4>Unordered lists</h4>
+
+    <ul>
+      <li>This is an unordered list</li>
+      <li>Second bullet point</li>
+    </ul>
+
+    <p>We can also have nested lists:</p>
+
+    <ol>
+      <li>Lets have an unordered list:</li>
+      <ul>
+        <li>Item one</li>
+        <li>Item two</li>
+      </ul>
+      <li>2nd Nested list:</li>
+      <ul>
+        <li>Item A</li>
+        <li>Item B</li>
+      </ul>
+    </ol>
+
+    <!-- DIVS and SPANS! -->
+
+    <h3>Divs and Spans</h3>
+
+    <!--  Using a div tag will group elements together-->
+    <!--  It is a generic container (block-level)-->
+    <!--  Later on we will see the application for this-->
+    <!--  It will become very useful with CSS -->
+    <!--  Things applied to this div container will effect everything in it-->
+
+    <div class="">
+
+
+      <h1>Some Header that I want to group with</h1>
+        <p>
+          Some text that I want to be grouped
+          with the header above!
+        </p>
+
+    </div>
+
+    <p>
+      You can use a span: <span> inside of the span</span>
+      This works as a in-line container that only effect something in-line!
+    </p>
+
+    <!-- ATTRIBUTES -->
+
+    <h3>Attributes</h3>
+
+    <!-- HTML attributes help us add more information such as images and links to our webpage -->
+
+    <!-- Image is a self closing tag -->
+    <img src="https://i.pinimg.com/originals/b0/3d/04/b03d044029121a37d9df316146581931.jpg" alt="Image not found :(">
+
+    <p><a href="https://www.w3schools.com/tags/ref_byfunc.asp">Visit this Link for more info on HTML tags!</a> </p>
+
+    <!-- TABLES -->
+
+    <h3>Tables</h3>
+
+    <p>Lets make a table on pokemon attacks:</p>
+
+    <table border="2">
+      <thead>
+        <th>Attack</th>
+        <th>Power</th>
+        <th>Accuracy</th>
+      </thead>
+      <!--  tr is a Table Row -->
+      <tr>
+        <!-- These are table cells -->
+        <td>Thunderbolt</td>
+        <td>90</td>
+        <td>100</td>
+      </tr>
+      <tr>
+        <td>Fire Blast</td>
+        <td>95</td>
+        <td>90</td>
+      </tr>
+      <tr>
+        <td>Blizzard</td>
+        <td>110</td>
+        <td>70</td>
+
+      </tr>
+
+    </table>
+
+    <h3>Forms</h3>
+
+    <form>
+
+
+    <h4>Log In</h4>
+    <h5>Please Input your Password and Email</h5>
+    <input type="email" name="useremail" value="Email Here">
+    <input type="password" name="password" value="Password">
+    <input type="submit" >
+
+    <h5>Choose a Color!</h5>
+    <h5>Click on the Button when ready</h5>
+    <input type="color" >
+    <h2>Enter some Text!</h2>
+    <input type="text" name="" value="Text goes here">
+
+    </form>
+
+  </body>
+</html>
